@@ -6,6 +6,19 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:listPopupWindowStyle">@style/ListPopupWindowStyle</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupElevation">3dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+
+    <style name="ListPopupWindowStyle" parent="@style/Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupElevation">3dp</item>
+        <item name="android:overlapAnchor">true</item>
     </style>
 
 </resources>
